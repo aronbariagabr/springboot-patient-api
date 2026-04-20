@@ -75,15 +75,16 @@ springboot-patient-api/
 
 
 ## 🔄 Workflow
-1.Client sends request (POST /patients or GET /patients/{id}).
-2.PatientController receives and validates the request.
-3.PatientService executes business logic (store/retrieve patient).
-4.Patient model represents the data.
-5.Response returned to client.
+1. Client sends request (`POST /patients` or `GET /patients/{id}`).  
+2. PatientController receives and validates the request.  
+3. PatientService executes business logic (store/retrieve patient).  
+4. Patient model represents the data.  
+5. Response returned to client.  
 
 ## 📡 API Endpoints
-POST /patients → Add a new patient
-GET /patients/{id} → Retrieve patient by ID
+- `POST /patients` → Add a new patient  
+- `GET /patients/{id}` → Retrieve patient by ID  
+
 
 ## Example Usage
 curl -X POST http://localhost:8080/patients \
