@@ -23,6 +23,7 @@ Demo REST API for patient records using Spring Boot. Showcases secure backend de
 mvn clean package -DskipTests
 java -jar target/patient-api.jar
 
+
 ## 📂 Repository Structure
 springboot-patient-api/
 ├── src/
@@ -85,8 +86,8 @@ springboot-patient-api/
 - `POST /patients` → Add a new patient  
 - `GET /patients/{id}` → Retrieve patient by ID  
 
-
-## Example Usage
+### 📋 Example Usage
+```bash
 curl -X POST http://localhost:8080/patients \
      -H "Content-Type: application/json" \
      -d '{"id":1,"name":"Alice","age":30}'
