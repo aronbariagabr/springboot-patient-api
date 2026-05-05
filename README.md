@@ -18,13 +18,8 @@ Demo REST API for patient records using Spring Boot. Showcases secure backend de
 - Retrieve patient records by ID
 - Simple in-memory storage for demo purposes
 
-## ⚡ Quickstart
-```bash
-mvn clean package -DskipTests
-java -jar target/patient-api.jar
-
-
 ## 📂 Repository Structure
+```bash
 springboot-patient-api/
 ├── src/
 │   ├── main/
@@ -37,6 +32,11 @@ springboot-patient-api/
 │           └── PatientControllerTest.java
 ├── pom.xml
 └── README.md
+
+## ⚡ Quickstart
+```bash
+mvn clean package -DskipTests
+java -jar target/patient-api.jar
 
 ## 🏗️ Architecture Diagram (Box Style)
 
