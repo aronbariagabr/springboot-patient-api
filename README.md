@@ -33,7 +33,7 @@ springboot-patient-api/
 ├── pom.xml
 └── README.md
 
-## ⚡ Quickstart
+##⚡ Quickstart
 ```bash
 mvn clean package -DskipTests
 java -jar target/patient-api.jar
