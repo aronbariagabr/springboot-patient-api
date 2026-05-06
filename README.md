@@ -112,3 +112,15 @@ mvn test
 | • Expand API with update/delete endpoints |
 | • Secure endpoints with Spring Security   |
 +-------------------------------------------+
+
+## 🏗️ Architecture Diagram (Mermaid)
+
+```mermaid
+flowchart TD
+    A[Client App<br>(curl / Postman / UI)] --> B[PatientController<br>- Handles HTTP requests<br>- Maps endpoints]
+    B --> C[PatientService<br>- Business logic<br>- Stores patients<br>- Retrieves patients]
+    C --> D[Patient Model<br>- id, name, age<br>- Data representation]
+    D --> E[Response<br>- JSON output<br>- Sent to client]
+
+
+
