@@ -116,12 +116,12 @@ mvn test
 
 ## 🏗️ Architecture Diagram (Mermaid)
 
+```mermaid
 flowchart TD
     A["Client App\n(curl / Postman / UI)"] --> B["PatientController\n- Handles HTTP requests\n- Maps endpoints"]
     B --> C["PatientService\n- Business logic\n- Stores patients\n- Retrieves patients"]
     C --> D["Patient Model\n- id, name, age\n- Data representation"]
     D --> E["Response\n- JSON output\n- Sent to client"]
-
 
 
 
