@@ -112,6 +112,7 @@ mvn test
 | • Expand API with update/delete endpoints |
 | • Secure endpoints with Spring Security   |
 +-------------------------------------------+
+```
 
 ## 🏗️ Architecture Diagram (Mermaid)
 
