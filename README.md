@@ -118,10 +118,11 @@ mvn test
 
 ```mermaid
 flowchart TD
-    A[Client App<br>(curl / Postman / UI)] --> B[PatientController<br>- Handles HTTP requests<br>- Maps endpoints]
-    B --> C[PatientService<br>- Business logic<br>- Stores patients<br>- Retrieves patients]
-    C --> D[Patient Model<br>- id, name, age<br>- Data representation]
-    D --> E[Response<br>- JSON output<br>- Sent to client]
+    A[Client App\n(curl / Postman / UI)] --> B[PatientController\n- Handles HTTP requests\n- Maps endpoints]
+    B --> C[PatientService\n- Business logic\n- Stores patients\n- Retrieves patients]
+    C --> D[Patient Model\n- id, name, age\n- Data representation]
+    D --> E[Response\n- JSON output\n- Sent to client]
+
 
 
 
